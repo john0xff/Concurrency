@@ -27,9 +27,11 @@ class ThreadFrame extends Thread
 	{
 		this.threadName = threadName;
 		
+		Runnable runnable = this;
+		
 		if (thread == null)
 		{
-			thread = new Thread(this, threadName);
+			thread = new Thread(runnable, threadName);
 		}
 	}
 

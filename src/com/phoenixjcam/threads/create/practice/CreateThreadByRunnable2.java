@@ -6,7 +6,9 @@ class ThreadExample implements Runnable
 
 	public ThreadExample(String threadName)
 	{
-		thread = new Thread(this, threadName);
+		Runnable runnable = this;
+		
+		thread = new Thread(runnable, threadName);
 		thread.start();
 	}
 
