@@ -46,7 +46,7 @@ class ThreadFactory implements Runnable
 	@Override
 	public void run()
 	{
-		synchronized (consolePrinter)
+		//synchronized (consolePrinter)
 		{
 			consolePrinter.print(threadName);
 		}
