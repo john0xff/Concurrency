@@ -1,4 +1,4 @@
-package com.phoenixjcam.concurrent.files;
+package com.phoenixjcam.concurrent.files.read;
 
 import java.io.BufferedReader;
 import java.io.File;
@@ -96,7 +96,7 @@ class ConcurrentFileReader
 	}
 }
 
-public class ConcurrentStreams
+public class ConcurrentReader
 {
 	public static void main(String[] args)
 	{
