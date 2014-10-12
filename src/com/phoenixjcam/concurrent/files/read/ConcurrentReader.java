@@ -47,8 +47,8 @@ class ConcurrentFileReader
 	public static int currentLine = 0;
 	public static int size = 0;
 
-	private final static String fileName = "src/com/phoenixjcam/concurrent/files/test.txt";
-	private static java.io.File file = new File(fileName);
+	private final static String filename = "src/com/phoenixjcam/concurrent/files/read/test.txt";
+	private static java.io.File file = new File(filename);
 	private static BufferedReader buffReader = null;
 	private static String readLine = null;
 
