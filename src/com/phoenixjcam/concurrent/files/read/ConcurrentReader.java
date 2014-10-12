@@ -72,7 +72,19 @@ class ConcurrentFileReader
 		{
 			e.printStackTrace();
 		}
-
+	}
+	
+	public static void closeStream()
+	{
+		try
+		{
+			buffReader.close();
+		}
+		catch (IOException e)
+		{
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 	}
 
 	// to improve work of concurrency uncomment synchronized below and comment normal way
@@ -110,5 +122,7 @@ public class ConcurrentReader
 
 		ThreadFactory elder = new ThreadFactory("elder of threading");
 		elder.getThread().start();
+		
+		//ConcurrentFileReader.closeStream();
 	}
 }
