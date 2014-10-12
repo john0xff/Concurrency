@@ -1,50 +1,5 @@
 package com.phoenixjcam.concurrent.files.write;
 
-import java.io.BufferedWriter;
-import java.io.File;
-import java.io.IOException;
-import java.io.OutputStreamWriter;
-import java.io.Writer;
-
-class ThreadFactory
-{
-	private Thread thread;
-	private String threadName;
-
-	public ThreadFactory()
-	{
-
-	}
-}
-
-class FileWriter
-{
-	private final static String filename = "src/com/phoenixjcam/concurrent/files/write/test.txt";
-	private File file;
-	private Writer out;
-
-	// Writer out = new BufferedWriter(new OutputStreamWriter(System.out));
-	
-	public FileWriter()
-	{
-		
-	}
-	
-	public void initWriter()
-	{
-		file = new File(filename);
-		try
-		{
-			out = new BufferedWriter(new java.io.FileWriter(file));
-		}
-		catch (IOException e)
-		{
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
-	}
-}
-
 public class ConcurrentWriter
 {
 	// write some random tex to file with 2 - 5 thread at the same time without synchronization and locks
@@ -52,6 +7,26 @@ public class ConcurrentWriter
 
 	public static void main(String[] args)
 	{
-		
+		FileWriter fileWriter = new FileWriter();
+
+		ThreadFactory threadFactory = new ThreadFactory("master", fileWriter);
+		try
+		{
+			threadFactory.getThread().join();
+		}
+		catch (InterruptedException e)
+		{
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+
+		/**
+		 * First thread already have made all work :)
+		 * <p>
+		 * All methods to write into the files in Writer class has synchronized (lock) methods. It's impossible to use 2
+		 * threads in the same operation on this class.
+		 * 
+		 */
+		ThreadFactory threadFactory2 = new ThreadFactory("king", fileWriter);
 	}
 }

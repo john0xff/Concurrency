@@ -1,13 +1,101 @@
-13
-1-line 
-2-line 
-3-line 
-4-line
-5-line
-6-line
-7-line
-8-line
-9-line
-10-line
-11-line
-12-the end of story
+100
+master --> 0
+master --> 1
+master --> 2
+master --> 3
+master --> 4
+master --> 5
+master --> 6
+master --> 7
+master --> 8
+master --> 9
+master --> 10
+master --> 11
+master --> 12
+master --> 13
+master --> 14
+master --> 15
+master --> 16
+master --> 17
+master --> 18
+master --> 19
+master --> 20
+master --> 21
+master --> 22
+master --> 23
+master --> 24
+master --> 25
+master --> 26
+master --> 27
+master --> 28
+master --> 29
+master --> 30
+master --> 31
+master --> 32
+master --> 33
+master --> 34
+master --> 35
+master --> 36
+master --> 37
+master --> 38
+master --> 39
+master --> 40
+master --> 41
+master --> 42
+master --> 43
+master --> 44
+master --> 45
+master --> 46
+master --> 47
+master --> 48
+master --> 49
+king --> 50
+king --> 51
+king --> 52
+king --> 53
+king --> 54
+king --> 55
+king --> 56
+king --> 57
+king --> 58
+king --> 59
+king --> 60
+king --> 61
+king --> 62
+king --> 63
+king --> 64
+king --> 65
+king --> 66
+king --> 67
+king --> 68
+king --> 69
+king --> 70
+king --> 71
+king --> 72
+king --> 73
+king --> 74
+king --> 75
+king --> 76
+king --> 77
+king --> 78
+king --> 79
+king --> 80
+king --> 81
+king --> 82
+king --> 83
+king --> 84
+king --> 85
+king --> 86
+king --> 87
+king --> 88
+king --> 89
+king --> 90
+king --> 91
+king --> 92
+king --> 93
+king --> 94
+king --> 95
+king --> 96
+king --> 97
+king --> 98
+king --> 99
