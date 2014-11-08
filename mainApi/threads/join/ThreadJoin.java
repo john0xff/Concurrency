@@ -1,4 +1,4 @@
-package com.phoenixjcam.threads.join;
+package threads.join;
 
 class ConsolePrinter
 {

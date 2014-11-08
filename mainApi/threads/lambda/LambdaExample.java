@@ -1,4 +1,4 @@
-package com.phoenixjcam.threads.lambda;
+package threads.lambda;
 
 public class LambdaExample
 {

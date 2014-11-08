@@ -1,4 +1,4 @@
-package com.phoenixjcam.threads.id;
+package threads.id;
 
 public class IdThread extends Object implements Runnable
 {

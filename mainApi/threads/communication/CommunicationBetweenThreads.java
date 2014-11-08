@@ -1,4 +1,4 @@
-package com.phoenixjcam.threads.communication;
+package threads.communication;
 
 /**
  * <p>

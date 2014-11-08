@@ -1,4 +1,4 @@
-package com.phoenixjcam.threads.deadlock;
+package threads.deadlock;
 
 public class DeadlockThread
 {

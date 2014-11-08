@@ -1,4 +1,4 @@
-package com.phoenixjcam.threads.control;
+package threads.control;
 
 /**
  * <p>
