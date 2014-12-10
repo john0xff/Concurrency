@@ -1,4 +1,4 @@
-package executor;
+package utilConcurrent.executor;
 
 import java.util.concurrent.ThreadPoolExecutor;
 
