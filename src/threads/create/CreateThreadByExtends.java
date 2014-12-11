@@ -1,4 +1,4 @@
-package com.phoenixjcam.threads.create;
+package threads.create;
 
 /**
  * http://www.tutorialspoint.com/java/java_multithreading.htm

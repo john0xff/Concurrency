@@ -1,4 +1,4 @@
-package com.phoenixjcam.threads.create.practice;
+package threads.create.practice;
 
 /**
  * Unsynchronized method to print stuff from different thread. It means that each instance of thread need to implement

@@ -1,4 +1,4 @@
-package com.phoenixjcam.concurrent.files.write;
+package concurrent.files.write;
 
 public class ConcurrentWriter
 {

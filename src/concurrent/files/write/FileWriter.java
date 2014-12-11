@@ -1,4 +1,4 @@
-package com.phoenixjcam.concurrent.files.write;
+package concurrent.files.write;
 
 import java.io.BufferedWriter;
 import java.io.File;

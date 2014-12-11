@@ -1,4 +1,4 @@
-package com.phoenixjcam.threads.api;
+package concurrent.collection;
 
 import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.ConcurrentLinkedDeque;
@@ -25,37 +25,6 @@ public class ConcurrencyApi
 {
 	public static void main(String[] args)
 	{
-		/**
-		 * 
-		 */
-		Semaphore semaphore = new Semaphore(2);
-
-		/**
-		 * 
-		 */
-		Lock locker = new ReentrantLock();
-
-		/**
-		 * 
-		 */
-		CyclicBarrier cyclicBarrier = new CyclicBarrier(2);
-
-		/**
-		 * The lock for guarding barrier entry
-		 * 
-		 */
-		ReentrantLock lock = new ReentrantLock();
-
-		/**
-		 * Condition to wait on until tripped
-		 * 
-		 */
-		Condition trip = lock.newCondition();
-
-		/**
-		 * 
-		 */
-		ReadWriteLock readWriteLock = new ReentrantReadWriteLock();
 
 		// -----------------------------------------
 		// ----------- Concurrency collection

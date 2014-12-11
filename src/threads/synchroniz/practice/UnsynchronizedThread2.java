@@ -1,4 +1,4 @@
-package com.phoenixjcam.threads.synchroniz.practice;
+package threads.synchroniz.practice;
 
 class UnsynchPrinter
 {

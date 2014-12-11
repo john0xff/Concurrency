@@ -1,4 +1,4 @@
-package threads.synchroniz;
+package threads.synchroniz.main;
 
 class UnsynchPrintDemo
 {

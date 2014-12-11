@@ -1,4 +1,4 @@
-package com.phoenixjcam.concurrent.files.read;
+package concurrent.files.read;
 
 import java.io.BufferedReader;
 import java.io.File;

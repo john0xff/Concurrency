@@ -1,4 +1,4 @@
-package com.phoenixjcam.threads.create.practice;
+package threads.create.practice;
 
 class ThreadExample implements Runnable
 {
